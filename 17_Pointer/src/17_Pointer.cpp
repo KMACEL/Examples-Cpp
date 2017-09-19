@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : 1_HelloWord.cpp
+// Name        : 17_Pointer.cpp
 // Author      : AceL
 // Version     :
 // Copyright   : Learn C++
@@ -10,11 +10,6 @@
 using namespace std;
 
 int main() {
-	cout << "!!! Hello World !!!" << endl; // prints !!!Hello World!!!
-	/*
-	 * cout cout: does not show data in the terminal.
-	 * "<<" is the assignment operator. Transfer the data on the right to the left.
-	 * endl: this is used to switch to a sub-line.
-	 */
+	cout << "Pointer" << endl; // prints Pointer
 	return 0;
 }
