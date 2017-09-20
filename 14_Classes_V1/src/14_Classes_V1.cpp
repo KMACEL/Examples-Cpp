@@ -3,7 +3,7 @@
 // Author      : AceL
 // Version     :
 // Copyright   : Learn C++
-// Description : Classes
+// Description : Classes Example
 //============================================================================
 
 #include <iostream>

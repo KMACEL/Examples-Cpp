@@ -3,7 +3,7 @@
 // Author      : AceL
 // Version     :
 // Copyright   : Learn C++
-// Description : Hello World in C++, Ansi-style
+// Description : Classes Constructor Example + <sstream> library
 //============================================================================
 
 #include <iostream>
