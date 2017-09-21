@@ -17,7 +17,7 @@ public:
 	Bear() {
 		cout << "Bear Class is Created..." << endl;
 	}
-	;
+
 
 	Bear(const Bear &otherClass) :
 			bearName(otherClass.bearName) {
@@ -26,19 +26,19 @@ public:
 		// if the bearSpeak class is not const, it will not work.
 		// because Bear copy const
 
-		cout << "Bear Class is Copyied " << this->bearName << endl;
+		cout << "Bear Class is copied " << this->bearName << endl;
 	}
-	;
+
 
 	void setBearName(string bearName) {
 		this->bearName = bearName;
 	}
-	;
+
 
 	void bearSpeak() const {
 		cout << "Say : " << bearName << " is Hurraaaa ..." << endl;
 	}
-	;
+
 };
 int main() {
 	cout << "Constructor Copy" << endl; // prints Constructor Copy
