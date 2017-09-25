@@ -12,7 +12,6 @@ using namespace std;
 void showArray(int arrayItems, string textArray[]);
 void showArray2(int arrayItems, string *textArray);
 void showArray3(string (&textArray)[4]);
-void showArray4(string *textArray);
 
 int main() {
 	cout << "Array and Function" << endl; // prints Array and Function
@@ -30,8 +29,6 @@ int main() {
 	showArray3(text);
 
 	cout << endl << "======================================" << endl << endl;
-
-	showArray4(text);
 
 	return 0;
 }
@@ -68,14 +65,4 @@ void showArray3(string (&textArray)[4]) {
 }
 
 //--------------------------------------------------------
-
-void showArray4(string *textArray) {
-	//??????????????????
-	cout << "showArray4" << endl;
-	string *beginArray = textArray;
-	string *endArray = beginArray;
-
-	cout << "Begin Array : " << *beginArray << endl ;
-	cout << "End Array : " << *endArray << endl ;
-}
 
