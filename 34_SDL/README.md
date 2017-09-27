@@ -39,9 +39,17 @@ Remember to add these to the Project options and not only to Debug or Release se
 
 
 -------------------------------------------------------------------
+sudo apt-get install libsdl2-2.0-0 
 
 Eclipse Project File  Riht Click -> Properties -> C/C++ Build -> Settings -> GCC C++ Compiler -> Includes -> Include Pats -> Add (/usr/local/include/SDL2) 
 
 Eclipse Project File  Riht Click -> Properties -> C/C++ Build -> Settings -> GCC C++ Linker -> Libraries -> Liblaries (SDL2)
 
 Eclipse Project File  Riht Click -> Properties -> C/C++ Build -> Settings -> GCC C++ Linker -> Libraries -> Liblaries search path (/usr/local/lib) 
+
+
+sudo apt-get install libdbus-glib-1-dev
+sudo apt-get install libibus-1.0-dev 
+sudo apt-get install libsamplerate0-dev
+sudo apt-get install libudev-dev
+sudo apt-get install fcitx-libs-dev 
