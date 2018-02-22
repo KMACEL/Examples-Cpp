@@ -9,26 +9,26 @@
 
 Person::Person() {
 	cout << "Entry Person Class" << endl;
-	this->personName = "";
-	this->personAge = 0;
-	this->personCountry = "";
+	this->personNameVar = "";
+	this->personAgeVar = 0;
+	this->personCountryVar = "";
 
 }
 
 Person::Person(string personName) {
 	cout << "Entry Person Class" <<  endl;
-	this->personName = personName;
-	this->personAge = 0;
-	this->personCountry = "";
+	this->personNameVar = personName;
+	this->personAgeVar = 0;
+	this->personCountryVar = "";
 }
 
 Person::~Person() {
-	cout << "Finish Person Class : " << this->personName << endl << endl;
+	cout << "Finish Person Class : " << this->personNameVar << endl << endl;
 }
 
 string Person::personInformation() {
 	stringstream ss;
-	ss << "\nName : " << this->personName << "\n" << "Age : " << this->personAge << "\n"
-			<< "Country : " << this->personCountry << "\n";
+	ss << "\nName : " << this->personNameVar << "\n" << "Age : " << this->personAgeVar << "\n"
+			<< "Country : " << this->personCountryVar << "\n";
 	return ss.str();
 }

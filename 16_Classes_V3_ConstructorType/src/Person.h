@@ -15,22 +15,25 @@ using namespace std;
 
 class Person {
 private :
-	string personName;
-	int personAge;
-	string personCountry;
+	string personNameVar;
+	int personAgeVar;
+	string personCountryVar;
 
 public:
 	Person(); // constructor type 1
 	Person(string personName);// constructor type 2
+
 	Person(string personName, int personAge){// constructor type 3
-		this->personName= personName;
-		this->personAge=personAge;
-		this->personCountry="";
+		this->personNameVar= personName;
+		this->personAgeVar=personAge;
+		this->personCountryVar="";
 	};
 
 	// constructor type 4
-	Person(string personName, int personAge, string country): personName(personName),personAge(personAge),personCountry(country){};
+	Person(string personName, int personAge, string country):personNameVar(personName),personAgeVar(personAge),personCountryVar(country){};
+
 	string personInformation();
+
 	virtual ~Person();
 };
 

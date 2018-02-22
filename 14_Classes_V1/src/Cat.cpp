@@ -20,4 +20,3 @@ void Cat::jump(void) {
 int Cat::age(int ages) {
 	return ages * 9;
 }
-

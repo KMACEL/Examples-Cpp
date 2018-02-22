@@ -15,7 +15,7 @@ int main() {
 	int i = 0;
 
 	while (i < 5) {
-		cout << "Hey" << endl;
+		cout << "Hey" << endl; // To be written 5 times
 		i++;
 	}
 

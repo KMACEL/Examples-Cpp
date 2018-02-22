@@ -7,7 +7,7 @@
 //============================================================================
 
 #include <iostream>
-#include<iomanip>
+#include <iomanip>
 
 using namespace std;
 
@@ -21,8 +21,7 @@ int main() {
 	integerVariablesDef = 547;
 
 	cout << "Integer Assigning when defining : " << integerVariables << endl;
-	cout << "Integer Assignment after identification : " << integerVariablesDef
-			<< endl;
+	cout << "Integer Assignment after identification : " << integerVariablesDef << endl;
 	//===========================================================================
 
 	//===========================================================================

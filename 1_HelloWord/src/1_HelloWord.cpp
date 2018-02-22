@@ -7,10 +7,9 @@
 //============================================================================
 
 #include <iostream>
-using namespace std;
 
 int main() {
-	cout << "!!! Hello World !!!" << endl; // prints !!!Hello World!!!
+	std::cout << "!!! Hello World !!!" << std::endl; // prints !!!Hello World!!!
 	/*
 	 * cout cout: does not show data in the terminal.
 	 * "<<" is the assignment operator. Transfer the data on the right to the left.

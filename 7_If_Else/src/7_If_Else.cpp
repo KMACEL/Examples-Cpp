@@ -25,11 +25,12 @@ int main() {
 }
 
 /*
- * =
- * <
- * >
- * !
- * &&
- * ||
+ * ==							equal
+ * <							Small
+ * >							Big
+ * !							Not
+ * &&							And
+ * ||							OR
+ 
  * bool = 5==4
  */

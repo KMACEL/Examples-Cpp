@@ -12,7 +12,7 @@ using namespace std;
 int main() {
 	cout << "For" << endl; // prints For
 
-	/*for (;;) {
+	/*for (;;) {	//infinite loop
 	 cout << "hops" << endl;
 	 }*/
 

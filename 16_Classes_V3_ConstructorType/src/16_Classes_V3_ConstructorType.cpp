@@ -14,8 +14,7 @@ int main() {
 	cout << "Classes" << endl; // prints Classes
 
 	Person person1;
-	cout << "Person 1 : 0 Constructor :: " << person1.personInformation()
-			<< endl;
+	cout << "Person 1 : 0 Constructor :: " << person1.personInformation()<< endl;
 
 	Person person2("Mert");
 	cout << "Person 2 : 1 Constructor : Only Name :: "

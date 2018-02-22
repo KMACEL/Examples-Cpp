@@ -8,6 +8,8 @@
 
 #include <iostream>
 using namespace std;
+// We will examine the namespace topic in more detail in the future.
+// But you would have to add "std ::" to the "cout", "flush", "endl"
 
 int main() {
 	cout << "Outputting " << flush;

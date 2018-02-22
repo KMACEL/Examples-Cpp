@@ -33,4 +33,3 @@ int returnValue(void) {
 int pluses(int a, int b) {
 	return a + b;
 }
-

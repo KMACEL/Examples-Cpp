@@ -28,6 +28,5 @@ int main() {
                cout << "huhu";
        }
 
-
 	return 0;
 }
